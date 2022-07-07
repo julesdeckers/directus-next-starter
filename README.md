@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Directus Next.js TailwindCSS & Sass Starter
 
-## Getting Started
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🧐 What's inside?
 
-First, run the development server:
+This Starter includes
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- ⚡️ [Next.js 12](https://nextjs.org/) - The React Framework for Production
+- 🐇 [Directus](https://directus.io/) - The Modern Data Stack 🐰
+- ⚛️ [React 18](https://reactjs.org/) - A JavaScript library for building user interfaces
+- 🧁 [TailwindCSS v3](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
+- 🎉 [Sass](https://sass-lang.com/) - Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+- 📏 [ESLint](https://eslint.org/) — Find and fix problems in your JavaScript code.
+- 🦋 [Prettier](https://prettier.io/) — An opinionated code formatter.
+- 🚂 [Motion One](https://motion.dev) - Motion One packs the power of the Web Animations API into a minimal API. It adds new features like selectors, individual transforms, timeline sequencing and more.
+- 💅 [Styled Components](https://styled-components.com) - Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Prerequisites
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You will need to have the provided [Directus project](../directus) running first before proceeding with this example.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🚀 Getting Started
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone this repo.
 
-## Learn More
+2. Install dependencies for this example.
 
-To learn more about Next.js, take a look at the following resources:
+   ```shell
+   cd nextjs
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Create a `.env` file by copying the provided `.env.example` file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Start the development server.
 
-## Deploy on Vercel
+   ```shell
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Your Directus Next.js example is now running at <http://localhost:3000>.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔗 Links
+
+### Directus
+
+- [Official Site](https://directus.io)
+- [Documentation](https://docs.directus.io)
+
+### Next.js
+
+- [Official Site](https://nextjs.org)
+- [Documentation](https://nextjs.org/docs)
